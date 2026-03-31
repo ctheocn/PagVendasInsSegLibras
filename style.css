@@ -168,6 +168,14 @@ p {
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-img {
+  height: 40px; /* controla o tamanho */
+  width: auto; /* mantém proporção */
+  display: block;
 }
 
 /* Sections Global */
@@ -537,6 +545,12 @@ section {
 }
 
 /* Instructor Section */
+.profile-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* mantém proporção e corta o excesso */
+  border-radius: 10px; /* opcional */
+}
 .instructor-image .image-placeholder {
   width: 300px;
   height: 300px;
